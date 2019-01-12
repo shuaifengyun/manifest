@@ -4,9 +4,9 @@
   <remote fetch="https://github.com/shuaifengyun" name="shuaifengyun"/>
   <remote fetch="https://github.com/qemu" name="qemu"/>
   <default remote="shuaifengyun" revision="master"/>
-  <project name="build.git" path="build" />
-  <project name="dtc.git" path="qemu/dtc" remote="qemu" revision="c1e55a5513e9bca41dc78a0f20245cc928596a3a"/>
-  <project name="gen_rootfs.git" path="gen_rootfs" remote="linaro-swg" revision="fe617d470e45778c909038bf3e7ca15174a4f893"/>
-  <project name="linux.git" path="linux" remote="linaro-swg" revision="50403184d40d04b3daf140417e031c16c2985eaf"/>
-  <project name="qemu.git" path="qemu" remote="qemu" revision="199e19ee538eb61fd08b1c1ee5aa838ebdcc968e"/>
+  <project name="build" path="build" />
+  <project name="dtc" path="qemu/dtc" remote="qemu" revision="c1e55a5513e9bca41dc78a0f20245cc928596a3a"/>
+  <project name="gen_rootfs" path="gen_rootfs" remote="linaro-swg" revision="fe617d470e45778c909038bf3e7ca15174a4f893"/>
+  <project name="linux" path="linux" remote="linaro-swg" revision="50403184d40d04b3daf140417e031c16c2985eaf"/>
+  <project name="qemu" path="qemu" remote="qemu" revision="199e19ee538eb61fd08b1c1ee5aa838ebdcc968e"/>
 </manifest>
